@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -34,13 +35,26 @@ h2 {
 .card-text {
     text-align: center;
     width:fit-content;
+    color: #1F2937;
 }
 
-#sub {
+.sub {
     font-size: 18px;
     color: #E5E7EB; 
 }
 
+#action-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+#action-hero {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
 
 a {
     text-decoration: none;
@@ -62,7 +76,7 @@ ul {
     gap: 75px;    
 }
 
-button {
+#top-button {
     background-color: #3882f6;
     color:#f9faf8;
     font-size: 18px;
@@ -121,4 +135,42 @@ button {
     font-weight: bolder;
     font-size: 24px;
     color: #1F2937;
+}
+
+#action-window {
+    display: flex;
+    justify-content: center;
+    padding: 100px 175px;
+}
+
+#action-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 75px;
+    border-radius: 12px;
+    gap: 150px;
+}
+
+#action-right {
+    align-self: center;
+}
+
+
+#action-button {
+    background-color:#3882f6;
+    color:#f9faf8;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: white;
+    padding: 12px 50px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 1px 175px;
 }

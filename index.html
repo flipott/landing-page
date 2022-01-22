@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,8 +24,8 @@
     <div id="hero-container">
         <div id="hero-left">
             <h1>This website is about shoes.</h1>
-            <p id="sub">This website has some subtext that goes herte under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button type="button">Sign up</button>
+            <p class="sub">This website has some subtext that goes herte under the main title. It's a smaller font and the color is lower contrast.</p>
+            <button type="button" id="top-button">Sign up</button>
         </div>
         <div id="hero-right">    
             <img src="images/shoe-throw.jpeg" alt="Man throwing a shoe in the air" width="400" height="auto">
@@ -58,17 +62,20 @@
     </div>
 
     <div id="action-window">
-        <div id="action-left">
-            <p id="action-hero">Call to action! It's time</p>
-            <p id="action-subtext">Sign up for our product by clicking that button right over there!</p>
+
+        <div id="action-box">
+            <div id="action-left">
+                <p id="action-hero">Call to action! It's time</p>
+                <p id="action-sub">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div id="action-right">
+                <button type="button" id="action-button">Sign up</button>
         </div>
-        <div id="action-right">
-            <button type="button">Sign up</button>
         </div>
     </div>
 
     <div id="footer">
-    <p>Copyright Ⓒ Phillip Ott 2021</p>
+    <p class="sub">Copyright Ⓒ Phillip Ott 2021</p>
     </div>
 
 </body>
