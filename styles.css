@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #1F2937;
-    color: #f9faf8;
+    background-color: #8d8741;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,44 +21,44 @@ header {
 h1 {
     font-size: 48px;
     font-weight: bolder;
-    color:#f9faf8;
+    color:white;
     margin-bottom: 0;
 }
 
 h2 {
     font-size: 36px;
     font-weight: bolder;
-    color:#1F2937;
+    color:#37331f;
     text-align: center;
 }
 
 .card-text {
     text-align: center;
     width:fit-content;
-    color: #1F2937;
+    color:#37331f;
 }
 
 .sub {
     font-size: 18px;
-    color: #E5E7EB; 
+    color: white; 
 }
 
 #action-sub {
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
     margin-top: 5px;
 }
 
 #action-hero {
     font-size: 24px;
-    color: #E5E7EB;
+    color: white;;
     font-weight: bolder;
     margin-bottom: 0;
 }
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: white;
 }
 
 ul {
@@ -72,17 +72,18 @@ ul {
 #hero-container {
     display: flex;
     padding: 25px 175px 75px 175px;
-    background-color:#1F2937;
-    gap: 75px;    
+    background-color: #8d8741;
+    gap: 75px;  
 }
 
 #top-button {
-    background-color: #3882f6;
-    color:#f9faf8;
+    background-color: #659DBD;
+    color: white;
     font-size: 18px;
     padding: 8px 15px;
     border-radius: 12px;
     border-style: none;
+    font-weight: bold;
 }
 
 #information {
@@ -108,9 +109,16 @@ ul {
 
 .cardimg {
     border-style: solid;
-    border-color:#3882f6;
+    border-color:#DAAD86;
     border-radius: 12px;
     padding: 10px;
+    width: 150px;
+    height: auto;
+}
+
+#heroimg {
+    width: 400px;
+    height: auto;
 }
 
 #quote {
@@ -124,7 +132,7 @@ ul {
 #quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #37331f;
     margin-bottom: 0;
     margin-left: 200px;
     margin-right: 200px;
@@ -134,7 +142,7 @@ ul {
     text-align: right;
     font-weight: bolder;
     font-size: 24px;
-    color: #1F2937;
+    color: #37331f;
 }
 
 #action-window {
@@ -145,7 +153,7 @@ ul {
 
 #action-box {
     display: flex;
-    background-color: #3882f6;
+    background-color: #659DBD;
     padding: 25px 75px;
     border-radius: 12px;
     gap: 150px;
@@ -157,8 +165,8 @@ ul {
 
 
 #action-button {
-    background-color:#3882f6;
-    color:#f9faf8;
+    background-color:#659DBD;
+    color: white;
     font-size: 18px;
     padding: 8px 15px;
     border-radius: 12px;
@@ -167,10 +175,14 @@ ul {
     padding: 12px 50px;
 }
 
+#hero-left {
+    min-width: 287px;
+}
+
 #footer {
     display: flex;
+    background-color: #8d8741;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
     padding: 1px 175px;
 }
